@@ -1,6 +1,6 @@
 for(var i = 0; i<document.querySelectorAll(".drum").length; i++){ //the document.querySelectorAll always returns an array. So we used the .length on it
     
-    document.querySelectorAll(".drum")[i].addEventListener("click", handleClick); //the addEventListener takes in two parameters one is an event wich for this case is 'click'
+    document.querySelectorAll(".drum")[i].addEventListener("keydown", handleClick); //the addEventListener takes in two parameters one is an event wich for this case is 'click'
                                                                                 //and the other parameter is a function that will execute once the event is detected.
 
     function handleClick() {
